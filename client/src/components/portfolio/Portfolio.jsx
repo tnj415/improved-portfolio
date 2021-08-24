@@ -7,6 +7,7 @@ import ea from "../../projects/e-a_demo.gif" //5
 import Project from "./project/Project"; 
 import projects from "../../seeds/projects"
 import React, { useState } from 'react'
+import "./portfolio.scss"
 
 
 export default function Projects() {
@@ -19,14 +20,14 @@ export default function Projects() {
   }
 
   return (
-    <section className="outer">
+    <section className="projects">
       <h2 className="title">Projects</h2>
       <article className="projectNav">
         {src.map((img, i) => (
-          <img src={img} alt="" onMouseEnter={() => handleHover(i)}></img>
+          <img className="thumbnail" src={img} alt="" onMouseEnter={() => handleHover(i)}></img>
         ))}
       </article>
-     
+      <article className="displayedProject">
         {projects.map((data) => {
 
           if (displayImg == data.id) { 
@@ -38,6 +39,7 @@ export default function Projects() {
           </article>)
         }
       })}
+      </article>
     </section>
   );
 }

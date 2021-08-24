@@ -1,27 +1,21 @@
-.project-container {
-  display: grid;
-  grid-auto-flow: column;
-  gap: 1em;
+.project {
+  display: flex;
+  flex-direction: row;
 }
 
-.card {
-  // display: flex;
-  // flex-direction: column;
-  // background-color: green;
-  background-blend-mode: multiply;
-  border: 2px solid black;
-  // justify-content: space-between;
-  // align-items: center;
+// .title {
+//   text-align: center;
+// }
 
-
-  
-  &div {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
+.display {
+  // height: 50%;
+  width: 50%;
+  align-self: center;
 }
-img {
-  height: 200px;
-  width: 400px;
+
+.info {
+  width: fit-content;
+  height: fit-content;
+  width: 50%;
+  text-align: center;
 }
