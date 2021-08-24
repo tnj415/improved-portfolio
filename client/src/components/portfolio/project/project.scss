@@ -1,0 +1,27 @@
+.project-container {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1em;
+}
+
+.card {
+  // display: flex;
+  // flex-direction: column;
+  // background-color: green;
+  background-blend-mode: multiply;
+  border: 2px solid black;
+  // justify-content: space-between;
+  // align-items: center;
+
+
+  
+  &div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+img {
+  height: 200px;
+  width: 400px;
+}
