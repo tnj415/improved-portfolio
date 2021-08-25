@@ -1,5 +1,5 @@
-import dev from "../assets/seeds/languages";
-import "../styles/resume.scss"
+import dev from "../../assets/seeds/languages";
+import "../../styles/resume.scss"
 
 export default function Languages() {
   console.log(dev[0].front);

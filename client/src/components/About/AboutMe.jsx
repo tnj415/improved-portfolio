@@ -5,7 +5,7 @@ import Bio from "./Bio"
 export default function About() {
   return (
     <section className="about">
-      <img className="selfimg" src={picture}></img>
+      <img className="selfimg" src={picture} alt=""></img>
       <Bio/>
       
     </section>

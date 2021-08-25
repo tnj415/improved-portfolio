@@ -29,7 +29,7 @@ export default function Projects() {
       </article>
       <article className="displayedProject">
         {projects.map((data) => {
-             if (displayImg == data.id) { 
+             if (displayImg === data.id) { 
               // console.log("displayImg", displayImg)
               // console.log("data.id", data.id)
               return (

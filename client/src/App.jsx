@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import "./App.scss";
 import NavBar from "./components/NavBar";
-import About from "./components/about/About";
+import About from "./components/about/AboutMe.jsx";
 import Projects from "./components/projects/Projects";
-import Contact from "./components/Contact";
+import Contact from "./components/contact/Contact";
 import Resume from "./components/Resume"
 
 export default function App() {

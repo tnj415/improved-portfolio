@@ -1,5 +1,5 @@
 import "../styles/resume.scss"
-import Languages from "./Languages"
+import Languages from "./resume/Languages"
 
 export default function Resume() {
   return (
