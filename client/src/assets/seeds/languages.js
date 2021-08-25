@@ -35,14 +35,14 @@ const idk = [
   "JSON",
   "JSON Web Tokens",
 
-  "Git",
-  "GitHub",
-  "Heroku",
+  "Git", //source management
+  "GitHub", //project management
+  "Heroku", //project deployment
 
-  "Imperative Programming",
-  "Declarative Programming",
+  "Imperative Programming", //changing state by issuing instructions - js
+  "Declarative Programming", //creating effects without specifying how -- html
   "Pseudocode",
-  "ES6",
+  "ES6", //version of js
 
   "Frontend Development",
 
