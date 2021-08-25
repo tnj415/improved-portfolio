@@ -15,7 +15,7 @@
 
 ## General Info
 * This is my portfolio
-![portfolio](/assets/img/portfolio)
+![portfolio](/client/src/assets/portfolio.gif)
 
 ## Technologies
 * This website was created with HTML,CSS,JavaScript,Node JS code on Microsoft Visual Studio Code.
