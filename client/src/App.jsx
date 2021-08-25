@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import About from "./components/about/About";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/Contact";
+import Resume from "./components/Resume"
 
 export default function App() {
   return (
@@ -11,9 +12,9 @@ export default function App() {
       <NavBar />
       <Switch>
         <Route component={About} path="/" exact />
-        {/* <Route component={About} to="/about" /> */}
         <Route component={Projects} path="/projects" />
         <Route component={Contact} path="/contact" />
+        <Route component={Resume} to="/resume" />
       </Switch>
     </BrowserRouter>
   );

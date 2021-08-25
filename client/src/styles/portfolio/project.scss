@@ -1,6 +1,7 @@
 .project {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 
 // .title {
@@ -9,7 +10,7 @@
 
 .display {
   // height: 50%;
-  width: 50%;
+  width: 40vw;
   align-self: center;
   border: 5px solid white;
 }
@@ -17,7 +18,7 @@
 .info {
   width: fit-content;
   height: fit-content;
-  width: 50%;
+  width: 30%;
   text-align: center;
   padding: 5rem;
 }

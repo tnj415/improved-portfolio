@@ -1,11 +1,10 @@
-
 .navBar {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
   background-color: #31b9d1;
   margin-bottom: 5rem;
-  
+  box-shadow: inset 0px -2px 0px 1px #dad2bf;
 }
 
 .navTitle {
@@ -25,14 +24,15 @@
 
 .navItem {
   margin-left: 2rem;
-  padding: 15px;
+  padding: 20px 40px;
   color: black;
 }
 
 .navActive {
   background-color: #121b2c;
-  // border: 2px solid #dad2bf;
-  // border-radius: 15px 15px 0 0;
+   border: 3px solid #dad2bf;
+  border-radius: 15px 15px 0px 0px;
   border-bottom: none;
-  color: #dad2bf;
+  color: #dad2bf;  
+  font-size: 110%;
 }

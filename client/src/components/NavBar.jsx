@@ -31,6 +31,12 @@ export default function NavBar() {
           activeClassName="navActive">
             Contact
           </NavLink>
+          <NavLink 
+          to="/resume"
+          className="navItem"
+          activeClassName="navActive">
+            Resume
+          </NavLink>
         </nav>
       </div>
     </header>

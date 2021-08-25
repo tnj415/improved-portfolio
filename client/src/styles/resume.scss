@@ -1,0 +1,22 @@
+.resumePg{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  font-weight: 600;
+  text-decoration: underline;
+  padding-bottom: 3rem;
+}
+
+.title-sub {
+  font-weight: 400;
+}
+
+.langList{
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+}
