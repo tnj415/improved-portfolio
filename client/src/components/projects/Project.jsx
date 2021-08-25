@@ -1,17 +1,17 @@
-import "./project.scss"
-import cal from "../../../projects/cal.jpg"
-import ea from "../../../projects/e-a_demo.gif"
-import mms from "../../../projects/mms.PNG"
-import pw from "../../../projects/pw.PNG"
-import quiz from "../../../projects/quiz.PNG"
-import wyw from "../../../projects/wyw.PNG"
+import "../../styles/portfolio/project.scss"
+import cal from "../../assets/projects/cal.jpg"
+import ea from "../../assets/projects/e-a_demo.gif"
+import mms from "../../assets/projects/mms.PNG"
+import pw from "../../assets/projects/pw.PNG"
+import quiz from "../../assets/projects/quiz.PNG"
+import wyw from "../../assets/projects/wyw.PNG"
 
 
 export default function Project(prop) {
   
   const src = [cal, pw, mms, quiz, wyw, ea]
-  console.log("prop.prop.id", prop.prop.id)
-  console.log("prop.prop.title", prop.prop.title)
+  // console.log("prop.prop.id", prop.prop.id)
+  // console.log("prop.prop.title", prop.prop.title)
 
   return (
 

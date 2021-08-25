@@ -1,0 +1,38 @@
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  background-color: #31b9d1;
+  margin-bottom: 5rem;
+  
+}
+
+.navTitle {
+  margin-right: 2rem;
+  .troy {
+    font-weight: 100;
+    font-size: 2em;
+    color: black;
+  }
+  
+  .johnson {
+    font-weight: 600;
+    font-size: 2em;
+    color: #dad2bf;
+  }
+}
+
+.navItem {
+  margin-left: 2rem;
+  padding: 15px;
+  color: black;
+}
+
+.navActive {
+  background-color: #121b2c;
+  // border: 2px solid #dad2bf;
+  // border-radius: 15px 15px 0 0;
+  border-bottom: none;
+  color: #dad2bf;
+}

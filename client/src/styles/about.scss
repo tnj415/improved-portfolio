@@ -1,0 +1,16 @@
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}.selfimg {  
+  height: 30rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: hue-rotate(20deg);
+}
+.languages{
+  display: flex;
+  flex-direction: row;
+}
