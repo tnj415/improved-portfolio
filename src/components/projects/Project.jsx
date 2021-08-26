@@ -1,4 +1,4 @@
-import "../../styles/portfolio/project.scss"
+import "../../styles/project.scss"
 import cal from "../../assets/projects/cal.jpg"
 import ea from "../../assets/projects/e-a_demo.gif"
 import mms from "../../assets/projects/mms.PNG"
