@@ -18,12 +18,17 @@
 ![portfolio](/client/src/assets/portfolio.gif)
 
 ## Technologies
-* This website was created with HTML,CSS,JavaScript,Node JS code on Microsoft Visual Studio Code.
+* This website was created with HTML,CSS,JavaScript,Node JS and React on Microsoft Visual Studio Code.
 
 # Installation
 * Go to https://github.com/tnj415/improved-portfolio and copy the repository on Github by clicking the green code button.
 * Open your terminal, navigate to destination you want to download this repository, and run the command:
     * $ git clone https://github.com/tnj415/improved-portfolio.git
+* This application requires Node Packet Manager Installation
+* Install required Node Package Managers by navigating to the 'client' directory and input 'npm i'
+* The command to run this program from the command line is 'react-scripts start' or the available script for this command is 'npm run start'
+* Additional available scripts are listed in the package.json file
+
 
 # Usage
 * The current version of the website can be accessed at the url: https://tnj415.github.io/improved-portfolio/
