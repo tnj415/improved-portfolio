@@ -37,3 +37,11 @@ button {
     background-color: #dad2bf;
   }
 }
+
+@media screen and (max-width: 600px) {
+
+  input, textarea {
+    width: 100%
+  }
+  
+}

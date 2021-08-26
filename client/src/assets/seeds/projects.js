@@ -13,7 +13,7 @@ const projects = [
   {
     id: 1,
     title: "Password Generator",
-    description: "Another early work of mine is this Password Generator. This allows users to input criteria for their password",
+    description: "I created a simple, yet effective program that prompts the user for what type of password they want, then it generates a randomized password. I used JavaScript, CSS, and HTML.",
     image: {
       //name: "pwGen.PNG",
       alt: "password generator application"
@@ -24,7 +24,7 @@ const projects = [
   {
     id: 2,
     title: "Music Searcher",
-    description: "My first team project is this Music Searcher. Users can find information about an artist and new similar",
+    description: "My first team project is this Music Searcher. Users can find information about an artist and new similar artists",
     image: {
       //name: "mms.PNG",
       alt: "music search website"
@@ -35,7 +35,7 @@ const projects = [
   {
     id: 3,
     title: "Quiz Game",
-    description: "One of my favorite early projects is this Quiz Game. The style is modeled after a composition book and it tests users knowledge of computer coding",
+    description: "This is a fun interactive game has a classic composition notebook theme. Users are quizzed on their knowledge of coding. A leader board displays high scores depending on the game mode. I used JavaScript, CSS, and HTML to create it.",
     image: {
       //name: "quiz.PNG",
       alt: "quiz game website"
@@ -46,7 +46,7 @@ const projects = [
   {
     id: 4,
     title: "Weather Application",
-    description: "Weather Application",
+    description: "This was created to provide users with access to weather conditions of the current day, as well as a 5 day forecast. It has a modern and simple layout to provide an intuitive user experience. I used JavaScript, CSS, and HTML to create it",
     image: {
       //name: "wyw.PNG",
       alt: "weather application"
@@ -57,7 +57,7 @@ const projects = [
   {
     id: 5,
     title: "Event Architect",
-    description: "a desc",
+    description: "I worked with a team to create this App that allows users to plan and join events. Login is required to join plan and edit events. Search for events using List.js and Browserify. We also used Node.js, Express, and MySql among other technologies",
     image: {
       //name: "e-a_demo.gif",
       alt: "ea app"

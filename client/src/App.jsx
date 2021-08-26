@@ -4,7 +4,8 @@ import NavBar from "./components/NavBar";
 import About from "./components/about/AboutMe.jsx";
 import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
-import Resume from "./components/Resume"
+import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route component={Contact} path="/contact" />
         <Route component={Resume} to="/resume" />
       </Switch>
+      <Footer/>
     </BrowserRouter>
   );
 }

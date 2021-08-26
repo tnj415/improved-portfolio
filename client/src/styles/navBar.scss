@@ -1,31 +1,40 @@
 .navBar {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: flex-end;
-  background-color: #31b9d1;
+  background-color: #004a57;
+  //background-color: #153338;
+  //background-color: #31b9d1;
   margin-bottom: 5rem;
   box-shadow: inset 0px -2px 0px 1px #dad2bf;
 }
 
 .navTitle {
-  margin-right: 2rem;
   .troy {
     font-weight: 100;
     font-size: 2em;
-    color: black;
   }
   
   .johnson {
+    pointer-events: none;
     font-weight: 600;
     font-size: 2em;
-    color: #dad2bf;
   }
 }
 
+.navMenu{
+  display: flex;
+ align-content: flex-start;
+ 
+}
+
 .navItem {
-  margin-left: 2rem;
+  font-size: 20px;
   padding: 20px 40px;
-  color: black;
+  font-weight: 200;
+  border: 3px solid transparent;
 }
 
 .navActive {
@@ -33,6 +42,39 @@
    border: 3px solid #dad2bf;
   border-radius: 15px 15px 0px 0px;
   border-bottom: none;
+  font-weight: 400;
   color: #dad2bf;  
-  font-size: 110%;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 700px) {
+
+  .navMenu{
+justify-content: space-around;
+  
+  }
+  
+  .navItem,
+  .navActive {
+    padding: 1rem 1rem;
+  
+}
+}
+
+@media screen and (max-width: 500px) {
+  
+  // .navItem,
+  // .navActive {
+  //    font-size: 16px;
+  //   }
+  .navActive {
+    border: none;
+    background: none;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .navItem,
+  .navActive {padding: 5px;}
 }

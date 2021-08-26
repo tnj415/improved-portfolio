@@ -2,7 +2,7 @@ const dev = [
   {
     front: [
       "HTML5",
-      "Cascading Style Sheets (CSS)",
+      "CSS",
       "Bootstrap",
       "Javascript",
       "JSX",

@@ -1,6 +1,7 @@
 .project {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -21,4 +22,15 @@
   width: 30%;
   text-align: center;
   padding: 5rem;
+
+ & a{
+  margin: 5px;
+  font-weight: bold;
+}
+}
+
+@media screen and (max-width: 1023px) {
+  .display {
+    width: 90vw;
+  }
 }

@@ -3,42 +3,38 @@ import "../styles/navBar.scss";
 
 export default function NavBar() {
   return (
-    <header >
-      <div>
-        <nav className="navBar">
-          <NavLink 
-          to="/" exact
-          className="navItem">
-            <h3 className="navTitle">
-              <span className="troy">Troy</span><span className="johnson">Johnson</span>
-            </h3>
-          </NavLink>
-          <NavLink 
-          to="/" exact 
-          className="navItem"
-          activeClassName="navActive">
+    <header>
+      <nav className="navBar">
+        <NavLink to="/" exact className="navItem">
+          <h3 className="navTitle">
+            <span className="troy">Troy</span>
+            <span className="johnson">Johnson</span>
+          </h3>
+        </NavLink>
+
+        <div className="navMenu">
+          <NavLink to="/" exact className="navItem" activeClassName="navActive">
             About
           </NavLink>
-          <NavLink 
-          to="/projects"
-          className="navItem"
-          activeClassName="navActive">
+          <NavLink
+            to="/projects"
+            className="navItem"
+            activeClassName="navActive"
+          >
             Projects
           </NavLink>
-          <NavLink 
-          to="/contact"
-          className="navItem"
-          activeClassName="navActive">
+          <NavLink
+            to="/contact"
+            className="navItem"
+            activeClassName="navActive"
+          >
             Contact
           </NavLink>
-          <NavLink 
-          to="/resume"
-          className="navItem"
-          activeClassName="navActive">
+          <NavLink to="/resume" className="navItem" activeClassName="navActive">
             Resume
           </NavLink>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
   );
 }

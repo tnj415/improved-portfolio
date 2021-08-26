@@ -2,15 +2,18 @@
 .about {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 2rem;
 }
 
 .selfimg {  
   height: 30rem;
   background-repeat: no-repeat;
   background-size: contain;
-  filter: hue-rotate(20deg);
+  filter: hue-rotate(15deg);
   outline: 2px solid #dad2bf;
+  
 }
 
 // .tech {
