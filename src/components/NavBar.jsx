@@ -13,12 +13,14 @@ export default function NavBar() {
         </NavLink>
 
         <div className="navMenu">
-          <NavLink to="/" exact className="navItem" activeClassName="navActive">
+          <NavLink exact to={process.env.PUBLIC_URL+"/" }
+          className="navItem"
+          activeClassName="navActive">
             About
           </NavLink>
 
           <NavLink
-            to="/projects"
+            to={process.env.PUBLIC_URL+"/projects"}
             className="navItem"
             activeClassName="navActive"
           >
@@ -26,14 +28,15 @@ export default function NavBar() {
           </NavLink>
 
           <NavLink
-            to="/contact"
+            to={process.env.PUBLIC_URL+"/contact"}
             className="navItem"
             activeClassName="navActive"
           >
             Contact
           </NavLink>
 
-          <NavLink to="/resume" className="navItem" activeClassName="navActive">
+          <NavLink to={process.env.PUBLIC_URL+"/resume"}
+           className="navItem" activeClassName="navActive">
             Resume
           </NavLink>
         </div>
