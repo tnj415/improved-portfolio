@@ -16,6 +16,7 @@ export default function NavBar() {
           <NavLink to="/" exact className="navItem" activeClassName="navActive">
             About
           </NavLink>
+
           <NavLink
             to="/projects"
             className="navItem"
@@ -23,6 +24,7 @@ export default function NavBar() {
           >
             Projects
           </NavLink>
+
           <NavLink
             to="/contact"
             className="navItem"
@@ -30,6 +32,7 @@ export default function NavBar() {
           >
             Contact
           </NavLink>
+
           <NavLink to="/resume" className="navItem" activeClassName="navActive">
             Resume
           </NavLink>

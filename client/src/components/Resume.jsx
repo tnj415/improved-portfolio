@@ -9,7 +9,7 @@ export default function Resume() {
         
           <Languages className="languages"/>
         
-      <a href="https://drive.google.com/file/d/1p5Pj75raihs4sBdmLMIBZUgsOi-CHvVo/view?usp=sharing" target="_blank" rel="noreferrer"><h3 className="title-sub">click here to view my Resume</h3></a>
+      <a href="https://drive.google.com/file/d/1p5Pj75raihs4sBdmLMIBZUgsOi-CHvVo/view?usp=sharing" target="_blank" rel="noreferrer"><h3 className="title-sub">Click Here To View My Resume</h3></a>
     </div>
   );
 }

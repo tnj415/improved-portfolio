@@ -20,8 +20,10 @@ export default function Project(prop) {
       <article className="info">
         <h3 className="title">{prop.prop.title}</h3>
         <p className="desc">{prop.prop.description}</p>
+        <div>
         <a href={prop.prop.deploy} target="_blank" rel="noreferrer">Live Site</a>
         <a href={prop.prop.github} target="_blank" rel="noreferrer">Github</a>
+        </div>
         </article>
     </section>
   );

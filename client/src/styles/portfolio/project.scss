@@ -3,6 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 2rem;
 }
 
 // .title {
@@ -22,10 +23,22 @@
   width: 30%;
   text-align: center;
   padding: 5rem;
+  height: 100%;
+
 
  & a{
   margin: 5px;
   font-weight: bold;
+ 
+ &:hover {
+    color: #ffffff;
+  }
+}
+& div {
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-end;
+  height: 100%;
 }
 }
 

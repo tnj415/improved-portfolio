@@ -9,6 +9,7 @@
   //background-color: #31b9d1;
   margin-bottom: 5rem;
   box-shadow: inset 0px -2px 0px 1px #dad2bf;
+
 }
 
 .navTitle {
@@ -24,11 +25,7 @@
   }
 }
 
-.navMenu{
-  display: flex;
- align-content: flex-start;
- 
-}
+
 
 .navItem {
   font-size: 20px;
@@ -37,6 +34,13 @@
   border: 3px solid transparent;
 }
 
+.navMenu{
+  display: flex;
+ align-content: flex-start;
+  & a:hover {
+    color: #ffffff;
+  }
+}
 .navActive {
   background-color: #121b2c;
    border: 3px solid #dad2bf;

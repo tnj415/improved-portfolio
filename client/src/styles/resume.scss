@@ -3,6 +3,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  & a:hover {
+    color: #ffffff;
+  }
 }
 .title {
   text-align: center;
