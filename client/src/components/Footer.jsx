@@ -10,12 +10,12 @@ export default function Footer() {
                 </a></li>
 
                 {/* STACK OVERFLOW */}
-                <li className="so" ><a href="https://stackoverflow.com/users/13000562/tnj415" target="_blank">
+                <li className="so" ><a href="https://stackoverflow.com/users/13000562/tnj415?tab=profile" target="_blank" rel="noreferrer">
                 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="2em" width="2em" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M18 20.002V15h2v7.002H4V15h2v5.002h12zM7.5 18v-2h9v2h-9zm.077-4.38l.347-1.97 8.864 1.563-.348 1.97-8.863-1.563zm1.634-5.504l1-1.732 7.794 4.5-1 1.732-7.794-4.5zm3.417-4.613l1.532-1.286 5.785 6.895-1.532 1.285-5.785-6.894z"></path></g></svg>
                 </a></li>
 
                 {/* LINKED IN */}
-                <li className="li" ><a href="https://www.linkedin.com/in/troy-johnson-728b5b204/" target="_blank">
+                <li className="li" ><a href="https://www.linkedin.com/in/troy-johnson-728b5b204/" target="_blank" rel="noreferrer">
                 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="2em" width="2em" xmlns="http://www.w3.org/2000/svg"><path d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM349.3 793.7H230.6V411.9h118.7v381.8zm-59.3-434a68.8 68.8 0 1 1 68.8-68.8c-.1 38-30.9 68.8-68.8 68.8zm503.7 434H675.1V608c0-44.3-.8-101.2-61.7-101.2-61.7 0-71.2 48.2-71.2 98v188.9H423.7V411.9h113.8v52.2h1.6c15.8-30 54.5-61.7 112.3-61.7 120.2 0 142.3 79.1 142.3 181.9v209.4z"></path></svg>
                 </a></li>
             </ul>
