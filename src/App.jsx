@@ -12,11 +12,11 @@ export default function App() {
     <BrowserRouter>
       <NavBar />
       <Switch>
-        <Route component={About} exact path="/" />
+        <Route component={About} exact path={process.env.PUBLIC_URL+"/"}  />
         {/* <Route component={About} path="/improved-portfolio" /> */}
-        <Route component={Projects} path="/projects" />
-        <Route component={Contact} path="/contact" />
-        <Route component={Resume} to="/resume" />
+        <Route component={Projects} path={process.env.PUBLIC_URL+"/projects"} />
+        <Route component={Contact} path={process.env.PUBLIC_URL+"/contact"} />
+        <Route component={Resume} path={process.env.PUBLIC_URL+"/resume"} />
       </Switch>
       <Footer/>
     </BrowserRouter>
