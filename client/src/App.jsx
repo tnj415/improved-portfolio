@@ -12,7 +12,8 @@ export default function App() {
     <BrowserRouter>
       <NavBar />
       <Switch>
-        <Route component={About} path="/" exact />
+        <Route component={About} exact path="/" />
+        <Route component={About} path="/improved-portfolio" />
         <Route component={Projects} path="/projects" />
         <Route component={Contact} path="/contact" />
         <Route component={Resume} to="/resume" />
