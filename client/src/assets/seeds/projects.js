@@ -2,7 +2,7 @@ const projects = [
   {
     id: 0,
     title: "Daily Planner",
-    description: "This was one of my first projects. I created an interactive Daily Planner",
+    description: "This was one of my first projects. I created an interactive Daily Planner. This project allows users to edit and save their schedule so when they return to the site they still have access their schedule.",
     image: {
       // name: "cal.jpg",
       alt: "daily planner application"

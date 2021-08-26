@@ -6,7 +6,7 @@ export default function Languages() {
   return (
     <div className="langList">
       <div className="front">
-      <h3 className="title-sub">Frontend Development</h3>
+      <h3 className="title-sub">Frontend Proficiencies</h3>
       <ul>
         {dev[0].front.map((lang) => (
           <li>{lang}</li>
@@ -14,7 +14,7 @@ export default function Languages() {
       </ul>
       </div>
       <div className="back">
-      <h3 className="title-sub">Backend Development</h3>
+      <h3 className="title-sub">Backend Proficiencies</h3>
       <ul>
         {dev[1].back.map((lang) => (
           <li>{lang}</li>
